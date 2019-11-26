@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --watch --mode development"
+    "build": "webpack --watch --mode development",
+    "package-install": "npm install --save-dev mini-css-extract-plugin webpack babel @babel/core @babel/preset-env babel-loader html-webpack-plugin webpack webpack-cli css-loader @babel/preset-react"
   },
   "repository": {
     "type": "git",
